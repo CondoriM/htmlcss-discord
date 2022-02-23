@@ -146,7 +146,49 @@
     padding-top: 1rem;
 }
 .third .item{
-    padding: 3.5rem 6.8rem 0 3rem;
+    padding: 6rem 8rem 0 3rem;
     width: 40%;
     float: left;
+}
+
+/* quarta sezione */
+
+.fourth{
+    text-align: center;
+}
+
+.fourth h1{
+    font-size: 2.5rem;
+}
+
+.fourth img{
+    width: 100%;
+}
+.fourth p{
+    margin: 1rem 10rem 0;
+}
+
+/* blocco download discord*/
+.download{
+    width: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.download h2{
+    text-align: center;
+    padding-bottom: 8rem;
+}
+
+.download button{
+    background-color: var(--third-color);
+    color: var(--primary-color);
+    padding: 0.6rem 1.5rem;
+    border-radius: 40px;
+    border: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
 }
