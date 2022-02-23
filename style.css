@@ -8,16 +8,14 @@
     --primary-color: #ffffff;
     --secondary-color: #23272a;
     --third-color: #8fa1e1;
-}
-
-.block{
-    width: 100vw;
+    --bg-color: #f6f6f6;
 }
 
 .head_site{
     background-image: url(./img/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100vw;
 }
 
 .white_color{
@@ -84,4 +82,71 @@
     font-size: 16px;
 }
 
+/********sezione principale**********/
 
+.block{
+    width: 1200px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*primo blocco*/
+.items{
+    margin: 3.7rem 0;
+}
+
+.first img{
+    width: 60%;
+    float: left;
+    padding: 2rem;
+}
+
+.first .item{
+    padding: 3.5rem 11rem 0 3rem;
+    width: 40%;
+    float: left;
+}
+
+.items::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.first p{
+    padding: 1rem 0 0 0;
+}
+
+/* seconda sezione*/
+
+.second img{
+    width: 60%;
+    float: left;
+    padding: 2rem;
+}
+
+.second p{
+    padding-top: 1rem;
+}
+.second .item{
+    padding: 3.5rem 6.8rem 0 3rem;
+    width: 40%;
+    float: left;
+}
+
+/*terza sezione*/
+
+.third img{
+    width: 60%;
+    float: left;
+    padding: 2rem;
+}
+
+.third p{
+    padding-top: 1rem;
+}
+.third .item{
+    padding: 3.5rem 6.8rem 0 3rem;
+    width: 40%;
+    float: left;
+}
